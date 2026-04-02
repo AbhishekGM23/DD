@@ -1,1 +1,1 @@
-savedcmd_modules.order := {   echo scull.o; :; } > modules.order
+savedcmd_/home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/modules.order := {   echo /home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.o; :; } > /home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/modules.order

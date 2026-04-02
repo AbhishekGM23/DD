@@ -1,1 +1,1 @@
-savedcmd_scull.mod := printf '%s\n'   main.o pipe.o access.o | awk '!x[$$0]++ { print("./"$$0) }' > scull.mod
+savedcmd_/home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.mod := printf '%s\n'   main.o pipe.o access.o | awk '!x[$$0]++ { print("/home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/"$$0) }' > /home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.mod

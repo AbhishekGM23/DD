@@ -1,1 +1,3 @@
-savedcmd_scull.o := ld -m elf_x86_64 -z noexecstack --no-warn-rwx-segments   -r -o scull.o @scull.mod 
+savedcmd_/home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.o := x86_64-linux-gnu-ld -m elf_x86_64 -z noexecstack --no-warn-rwx-segments   -r -o /home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.o @/home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.mod  ; ./tools/objtool/objtool --hacks=jump_label --hacks=noinstr --hacks=skylake --ibt --orc --retpoline --rethunk --sls --static-call --uaccess --prefix=16  --link  --module /home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.o
+
+/home/abhi/Downloads/dd/mse/ldd4-master/ldd4-master/scull/scull.o: $(wildcard ./tools/objtool/objtool)
