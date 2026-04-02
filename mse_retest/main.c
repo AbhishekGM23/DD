@@ -419,7 +419,7 @@ long scull_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)
 	if (err)
 		return -EFAULT;
 
-
+	switch(cmd) {
 	case SORT_FIRST_QUANTUM:
 {
     char buf[20];
